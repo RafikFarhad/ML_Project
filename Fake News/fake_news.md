@@ -71,18 +71,6 @@ data_set = pd.read_csv("fake_or_real_news.csv")
 
 ```
 
-
-    ---------------------------------------------------------------------------
-
-    NameError                                 Traceback (most recent call last)
-
-    <ipython-input-1-c3e5c226b353> in <module>()
-    ----> 1 data_set = pd.read_csv("fake_or_real_news.csv")
-    
-
-    NameError: name 'pd' is not defined
-
-
 # <center> Stemming Approach </center>
 
 
