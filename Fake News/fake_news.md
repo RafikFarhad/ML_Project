@@ -82,7 +82,7 @@ def stemmer_function(text):
     for w in words:
         ret = ret + " " + stemmer.stem(w)
     return ret
-# print(stemmer_function("I’m not an immigrant, but my grandparents are. More than"))
+# print(stemmer_function("I  am eating rice going went gone"))
 ```
 
 # <center> Stemming Text </center>
