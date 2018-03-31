@@ -71,18 +71,6 @@ data_set = pd.read_csv("fake_or_real_news.csv")
 
 ```
 
-
-    ---------------------------------------------------------------------------
-
-    NameError                                 Traceback (most recent call last)
-
-    <ipython-input-1-c3e5c226b353> in <module>()
-    ----> 1 data_set = pd.read_csv("fake_or_real_news.csv")
-    
-
-    NameError: name 'pd' is not defined
-
-
 # <center> Stemming Approach </center>
 
 
@@ -94,7 +82,7 @@ def stemmer_function(text):
     for w in words:
         ret = ret + " " + stemmer.stem(w)
     return ret
-# print(stemmer_function("I’m not an immigrant, but my grandparents are. More than"))
+# print(stemmer_function("I  am eating rice going went gone"))
 ```
 
 # <center> Stemming Text </center>
